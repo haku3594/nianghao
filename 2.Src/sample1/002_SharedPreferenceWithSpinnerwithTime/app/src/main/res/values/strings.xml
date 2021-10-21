@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="customerNameHint">○○さん</string>
+    <string name="labelSystem">システム</string>
+    <string name="labelItem">項目</string>
+    <string name="btnClearText">クリア</string>
+</resources>
