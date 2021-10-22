@@ -22,7 +22,7 @@ class DatePickerDialogFragment : DialogFragment(), DatePickerDialog.OnDateSetLis
         super.onAttach(context)
         // Todo デバッグで確認。リスナーへの設定がうまくいってない
         //      contextがMainActivity?になっているのが問題（MainFragmentではなく、MainActivityに紐づいてる。。。
-        //      これをMainActivityに紐づけることができれば問題なさそう）
+        //      これをMainFragmentに紐づけることができれば問題なさそう）
         if (context is OnSelectedDateListener) {
             listener = context
         }
